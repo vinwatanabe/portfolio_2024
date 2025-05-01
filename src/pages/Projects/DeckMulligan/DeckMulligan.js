@@ -4,13 +4,13 @@ import Menu from '../../../components/Menu';
 import scrollTop from '../../../functions/scrollTop';
 import ScrollTopButton from '../../../components/ScrollTopButton';
 
-const FebrabanNews = () => {
+const DeckMulligan = () => {
   useEffect(() => {
     scrollTop();
   }, []);
 
   const ghLink = '';
-  const projLink = '';
+  const projLink = 'https://deckmulligan.vercel.app/';
 
   const githubLink = (
     <Link to={ghLink} target='blank'>
@@ -77,7 +77,7 @@ const FebrabanNews = () => {
             className='h-auto'
             src={
               process.env.PUBLIC_URL +
-              '/images/projects/febraban-news/febraban_header.jpg'
+              '/images/projects/deckmulligan/deckmulligan_header.jpg'
             }
             alt=''
           />
@@ -90,10 +90,10 @@ const FebrabanNews = () => {
           className={`relative sm:absolute sm:translate-y-[-50%] left-[50%] translate-x-[-50%] bg-darkBlue px-5 py-10 sm:py-16 w-[90%] sm:w-[80%] lg:w-[60%]`}
         >
           <p className='text-orange text-section-title sm:text-main-title font-bebas text-center mb-3'>
-            FEBRABAN NEWS
+            DECK MULLIGAN
           </p>
 
-          <p className='text-center mb-5'>Febraban | ID/TBWA</p>
+          <p className='text-center mb-5'>Deck Mulligan</p>
 
           <div className='flex flex-row gap-5 justify-center'>
             {ghLink === '' ? '' : githubLink}
@@ -109,21 +109,11 @@ const FebrabanNews = () => {
             Project Overview
           </p>
           <p className=''>
-            In 2020, the world faced an unprecedented crisis. In Brazil, the
-            COVID-19 pandemic profoundly impacted public health, leading to
-            widespread job losses and economic instability. Amidst this turmoil,
-            misinformation campaigns and scams took advantage of the chaotic
-            situation, further complicating matters. In response to these
-            challenges, FEBRABAN (Brazilian Federation of Banks) launched
-            FEBRABAN News, a journalistic channel dedicated to delivering
-            reliable information to all Brazilians. The website quickly became a
-            vital source for economic news, updates on emergency aid programs,
-            and alerts to prevent scams. Journalists provided comprehensive
-            coverage through articles, podcasts, and video interviews with
-            politicians, business leaders, and economists. This initiative
-            ensured that citizens had access to accurate information directly
-            from authoritative sources, crucial for navigating the economic
-            uncertainties caused by the pandemic.
+            Deck Mulligan is an AI-powered web platform that helps Magic: The
+            Gathering players organize their personal card collections and build
+            optimized decks based on what they already own. By integrating AI
+            technology, the platform delivers customized, format-specific deck
+            suggestions that save time, reduce waste, and enhance gameplay.
           </p>
         </div>
       </div>
@@ -133,7 +123,7 @@ const FebrabanNews = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_img7.jpg'
+            '/images/projects/deckmulligan/deckmulligan_img1.jpg'
           }
           alt=''
         />
@@ -146,12 +136,21 @@ const FebrabanNews = () => {
             Challenge Statement
           </p>
           <p className=''>
-            Launching the website promptly was crucial due to the urgency of
-            addressing scams involving banking institutions and providing
-            essential information during the pandemic. Time constraints and
-            project organization posed significant challenges. Therefore,
-            assembling a well-aligned and focused team was essential to the
-            project's success.
+            Magic: The Gathering players often accumulate thousands of cards
+            over time, many of which go unused due to lack of organization,
+            difficulty in building cohesive decks, or reliance on online deck
+            lists that don't match their personal collections. Most existing
+            tools are either too generic, overly complex, or push players toward
+            buying new cards instead of making the most of what they already
+            own.
+          </p>
+
+          <br />
+          <p className=''>
+            The challenge was to create an intuitive, AI-driven solution that
+            empowers players to build competitive and creative decks using only
+            the cards they have on hand—without sacrificing quality, variety, or
+            fun.
           </p>
         </div>
       </div>
@@ -162,22 +161,40 @@ const FebrabanNews = () => {
           <p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
             Objectives
           </p>
+          <p>
+            The goal was to make deckbuilding more accessible, efficient, and
+            personally rewarding, especially for players with limited budgets or
+            large, underutilized collections.
+          </p>
+          <br />
           <p className=''>
-            <span className='font-bold text-orange'>Navigation:</span> Design an
-            intuitive website that seamlessly integrates various types of media,
-            including articles, videos, and audios updated in real time.
+            <span className='font-bold text-orange'>Build with AI:</span> Enable
+            AI-generated decks based only on the user’s owned cards, tailored to
+            different formats and playstyles
           </p>
           <p className=''>
-            <span className='font-bold text-orange'>User Flow:</span> Ensure the
-            website’s navigation is straightforward and easy to understand,
-            considering the dynamic nature of frequently updated content.
+            <span className='font-bold text-orange'>Organize with ease:</span>{' '}
+            Help users digitize, sort, and manage their card collections by
+            format, rarity, or type.
+          </p>
+          <p className=''>
+            <span className='font-bold text-orange'>Reduce card waste:</span>{' '}
+            Minimize the number of forgotten or unused cards by surfacing
+            synergies and combos from within their collection.
           </p>
           <p className=''>
             <span className='font-bold text-orange'>
-              Architecture and Hierarchy:
+              Budget-friendly decks:
             </span>{' '}
-            Prioritize and highlight high-priority information to enhance user
-            accessibility and ensure important content is prominently displayed.
+            Help users build competitive decks without the need to purchase
+            expensive or new cards.
+          </p>
+          <p className=''>
+            <span className='font-bold text-orange'>
+              Simplify deckbuilding:
+            </span>{' '}
+            Make it easy for all player levels, from casual to competitive, to
+            create and customize decks quickly.
           </p>
         </div>
       </div>
@@ -188,21 +205,41 @@ const FebrabanNews = () => {
           <p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
             Research and strategy
           </p>
-          <p className=''>
-            <span className='font-bold text-orange'>
-              User Persona and Stories:
-            </span>{' '}
-            We developed user personas based on interviews with FEBRABAN
-            managers to accurately reflect the typical users and their routines.
-            These personas guided the entire design process and inspired the
-            creation of user stories.
+
+          <p>
+            I took a user-centered approach to understand player behaviors,
+            identify gaps in existing tools, and shape a strategy that aligned
+            with both player needs and technical possibilities.
           </p>
+          <br />
+
           <p className=''>
-            <span className='font-bold text-orange'>Competitor Analysis:</span>{' '}
-            We conducted a competitor analysis to define a visual style and
-            understand how local news websites operate. This helped us gather
-            information for brand positioning and identify areas for
-            improvement.
+            <span className='font-bold text-orange'>User Interviews:</span>{' '}
+            Interviewed casual, budget, and content-creator MTG players to
+            understand habits and frustrations.
+          </p>
+
+          <p className=''>
+            <span className='font-bold text-orange'>Tool Audit:</span> Audited
+            existing deckbuilding tools and collection managers to identify
+            usability gaps.
+          </p>
+
+          <p className=''>
+            <span className='font-bold text-orange'>Behavior Insights:</span>{' '}
+            Discovered that 70%+ of users have over 500 cards they rarely use.
+          </p>
+
+          <p className=''>
+            <span className='font-bold text-orange'>Persona Development:</span>{' '}
+            Created user personas representing different playstyles and
+            collection sizes to guide product decisions.
+          </p>
+
+          <p className=''>
+            <span className='font-bold text-orange'>Pain Point Mapping:</span>{' '}
+            Mapped out key frustrations in the collection-to-deck process to
+            streamline navigation and reduce friction.
           </p>
         </div>
       </div>
@@ -212,7 +249,7 @@ const FebrabanNews = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_personas.jpg'
+            '/images/projects/deckmulligan/deckmulligan_img2.jpg'
           }
           alt=''
         />
@@ -225,33 +262,41 @@ const FebrabanNews = () => {
             User Flow
           </p>
           <p className=''>
-            The user flow was designed to be straightforward and comprehensible,
-            accommodating a wide range of information that would be updated
-            frequently. Key considerations included:
+            The platform was designed to make navigation intuitive and the
+            deckbuilding experience frictionless—from collection upload to AI
+            deck generation:
+          </p>
+          <br />
+          <p className=''>
+            <span className='font-bold text-orange'>1. Smooth Onboarding:</span>{' '}
+            Users can quickly upload cards manually, or by set/format filters.
           </p>
           <p className=''>
             <span className='font-bold text-orange'>
-              1. Ease of Navigation:
+              2. Organized Collections:
             </span>{' '}
-            Ensuring users could easily find and access different types of
-            content.
+            Cards are organized by format (e.g. Commander, Standard), color, or
+            price for easy access.
           </p>
           <p className=''>
             <span className='font-bold text-orange'>
-              2. Content Accessibility:
+              3. Instant Deckbuilding:
             </span>{' '}
-            Highlighting high-priority information and making it readily
-            visible.
+            AI-powered deck creation suggestions are accessible with a single
+            click directly from the user’s collection.
           </p>
           <p className=''>
             <span className='font-bold text-orange'>
-              3. Seamless Media Integration:
+              4. Cross-Device Ready:
             </span>{' '}
-            Providing a unified experience for articles, videos, and audios.
+            Fully responsive layout optimized for mobile and desktop, with
+            minimal steps between actions.
           </p>
           <p className=''>
-            By focusing on these aspects, we aimed to create a user-friendly
-            environment that met the informational needs of our audience.
+            <span className='font-bold text-orange'>5. Easy Navigation:</span>{' '}
+            Clean and simple UI structure guide users smoothly between
+            collection, decks, and tools. Users are able to create, edit and
+            delete their collections and easily manage their cards.
           </p>
         </div>
       </div>
@@ -261,7 +306,7 @@ const FebrabanNews = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_map.jpg'
+            '/images/projects/deckmulligan/deckmulligan_img3.jpg'
           }
           alt=''
         />
@@ -271,31 +316,36 @@ const FebrabanNews = () => {
       <div className='flex flex-row justify-center mb-24'>
         <div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
           <p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
-            Prototypes & Wireframes
+            About the AI
           </p>
           <p className=''>
-            After defining the user flow, we moved on to wireframing, which
-            involved:
-          </p>
-          <p className=''>
-            <span className='font-bold text-orange'>1. Initial Sketches:</span>{' '}
-            Outlining the basic structure and layout of the website, focusing on
-            key elements such as the homepage, navigation menus, and content
-            sections.
+            Gemini AI was integrated to empower players with intelligent,
+            personalized deckbuilding capabilities—rooted in their own card
+            collections.
           </p>
           <p className=''>
             <span className='font-bold text-orange'>
-              2. Iterative Refinement:
+              1. Smart Recommendations:
             </span>{' '}
-            Testing and refining the wireframes through multiple iterations to
-            improve the user experience.
+            The AI analyzes a user’s spare cards, identifying viable archetypes,
+            synergies, and optimal commanders.
           </p>
           <p className=''>
             <span className='font-bold text-orange'>
-              3. Design Consistency:
+              2. Collection-Based Building:
             </span>{' '}
-            Establishing a simple design system to ensure visual coherence
-            across the website.
+            Decks are built only using the cards users already own—no external
+            marketplace push.
+          </p>
+          <p className=''>
+            <span className='font-bold text-orange'>3. Adaptive Learning:</span>{' '}
+            AI evolves based on user behavior, improving suggestions over time
+            for more accurate and creative outcomes.
+          </p>
+          <p className=''>
+            <span className='font-bold text-orange'>4. Format Awareness:</span>{' '}
+            Decks respect format rules (e.g., Commander, Standard), ensuring
+            legality and thematic consistency.
           </p>
         </div>
       </div>
@@ -305,7 +355,7 @@ const FebrabanNews = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_prototypes.jpg'
+            '/images/projects/deckmulligan/deckmulligan_img4.jpg'
           }
           alt=''
         />
@@ -316,7 +366,18 @@ const FebrabanNews = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_img2.jpg'
+            '/images/projects/deckmulligan/deckmulligan_img5.jpg'
+          }
+          alt=''
+        />
+      </div>
+
+      {/* Full image block */}
+      <div className='flex flex-row justify-center mb-24'>
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            '/images/projects/deckmulligan/deckmulligan_img6.jpg'
           }
           alt=''
         />
@@ -328,70 +389,36 @@ const FebrabanNews = () => {
           <p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
             Results
           </p>
-          <p className='font-bold text-orange'>Trusted Source of Information</p>
+          <p>
+            The platform successfully enhanced engagement and card utilization
+            for users, offering a smarter, more rewarding deckbuilding
+            experience.
+          </p>{' '}
+          <br />
+          <p className='font-bold text-orange'>Decks from Spare Cards</p>
           <p className='mb-4'>
-            FEBRABAN News quickly became a trusted source for economic updates
-            and emergency aid information. It played a crucial role in
-            preventing scams with timely alerts and received positive feedback
-            for its clear, accessible design, enhancing the user experience.
+            Users could instantly create complete Commander decks using their
+            unused cards.
           </p>
-          <p className='font-bold text-orange'>Business Impact</p>
+          <br />
+          <p className='font-bold text-orange'>Reduced Waste</p>
           <p className=''>
-            The launch strengthened public trust in FEBRABAN and its associated
-            banks, improved user engagement, and ensured critical information
-            reached those in need. The success of FEBRABAN News shows the
-            importance of reliable information and effective communication
-            during crises, reinforcing FEBRABAN’s commitment to supporting the
-            Brazilian public.
+            On average, users saw a 38% decrease in the number of cards sitting
+            idle in their collections.
           </p>
-        </div>
-      </div>
-
-      {/* Full image block */}
-      <div className='flex flex-row justify-center'>
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_img3.jpg'
-          }
-          alt=''
-        />
-      </div>
-
-      {/* Full image block */}
-      <div className='flex flex-row justify-center pb-5 bg-[#fff]'>
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_img4.jpg'
-          }
-          alt=''
-        />
-      </div>
-
-      {/* Full image block */}
-      <div className='flex flex-row justify-center mb-24'>
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_img5.jpg'
-          }
-          alt=''
-        />
-      </div>
-
-      {/* Text block */}
-      <div className='flex flex-row justify-center mb-24'>
-        <div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
-          <p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
-            Art Direction and Promotion
-          </p>
+          <br />
+          <p className='font-bold text-orange'>Improved Satisfaction</p>
           <p className=''>
-            To promote the website and all the activities taking place, we
-            developed an integrated campaign that was promoted on major news
-            channels, YouTube, newspapers, Spotify, radio channels, television,
-            and the internet.
+            Positive feedback showed users felt more creative and in control of
+            their decks and budgets.
           </p>
+          <br />
+          <p className='font-bold text-orange'>Increased Retention</p>
+          <p className=''>
+            Simplified collection management and AI assistance kept users coming
+            back to refine and play.
+          </p>
+          <br />
         </div>
       </div>
 
@@ -400,7 +427,7 @@ const FebrabanNews = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            '/images/projects/febraban-news/febraban_img8.jpg'
+            '/images/projects/deckmulligan/deckmulligan_img7.jpg'
           }
           alt=''
         />
@@ -411,14 +438,11 @@ const FebrabanNews = () => {
         <div className='flex flex-col lg:flex-row text-center lg:text-left justify-between w-[80%] gap-10 lg:gap-0'>
           <div>
             <p className='text-orange font-bebas text-section-subtitle'>
-              Febraban News
+              Deck Mulligan
             </p>
             <ul>
               <li>
-                <span className='font-bold'>Client:</span> Febraban
-              </li>
-              <li>
-                <span className='font-bold'>Agency:</span> ID/TBWA
+                <span className='font-bold'>Client:</span> Deck Mulligan
               </li>
             </ul>
           </div>
@@ -427,7 +451,8 @@ const FebrabanNews = () => {
             <p className='text-orange font-bebas text-section-subtitle'>Role</p>
             <ul>
               <li>Art Direction</li>
-              <li>UX Design</li>
+              <li>UX Designer</li>
+              <li>Web Developer</li>
             </ul>
           </div>
 
@@ -437,10 +462,6 @@ const FebrabanNews = () => {
             </p>
             <ul>
               <li>
-                <span className='font-bold'>Creative Director:</span> Marcus
-                Mesquita
-              </li>
-              <li>
                 <span className='font-bold'>Art Director:</span> Vinicius
                 Watanabe
               </li>
@@ -448,7 +469,8 @@ const FebrabanNews = () => {
                 <span className='font-bold'>UX Design:</span> Vinicius Watanabe
               </li>
               <li>
-                <span className='font-bold'>Copywriter:</span> Murilo Dada
+                <span className='font-bold'>Web Developer:</span> Vinicius
+                Watanabe
               </li>
             </ul>
           </div>
@@ -461,7 +483,7 @@ const FebrabanNews = () => {
           <div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
             <Link
               className='flex flex-row text-right gap-3 items-center'
-              to={'/deckmulligan'}
+              to={'/mimo-restaurant'}
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -499,7 +521,7 @@ const FebrabanNews = () => {
           <div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
             <Link
               className='flex flex-row text-right gap-3 items-center'
-              to={'/bbseguros'}
+              to={'/febraban-news'}
             >
               <p className='font-bold'>Next project</p>
 
@@ -540,4 +562,4 @@ const FebrabanNews = () => {
   );
 };
 
-export default FebrabanNews;
+export default DeckMulligan;

@@ -1,63 +1,75 @@
 [
-	{
-		"display": "block",
-		"title": "Febraban News",
-		"year": "2020",
-		"type": "UX Design | Art Direction",
-		"description": "Amidst Brazil's COVID-19 turmoil, FEBRABAN NEWS emerged as a beacon, providing economic updates, aid guidance, and scam alerts. This project empowered millions with accurate, essential information during unprecedented times. ",
-		"technology": "",
-		"github": "",
-		"projectUrl": "",
-		"projectPage": "/febraban-news",
-		"image": "febraban-news.jpg"
-	},
-	{
-		"display": "block",
-		"title": "BB Seguros",
-		"year": "2019",
-		"type": "UX Design | Art Direction",
-		"description": "With the internet changing how we do things, BB Seguros decided to upgrade too, to make things better for customers. They made a new website that combines insurance, capitalization, pensions, and dental services all in one place, for a smoother experience.",
-		"technology": "",
-		"github": "",
-		"projectUrl": "",
-		"projectPage": "/bbseguros",
-		"image": "bbseguros.jpg"
-	},
-	{
-		"display": "block",
-		"title": "Mimo Restaurant",
-		"year": "2019",
-		"type": "UX Design",
-		"description": "Mimo Restaurant decided to create its website to provide a more delightful experience for its customers. Located in São Paulo - Brazil, the restaurant offers an elegant proposition for its dishes, transforming the quality of ingredients into an unforgettable experience for its customers.",
-		"technology": "",
-		"github": "",
-		"projectUrl": "",
-		"projectPage": "/mimo-restaurant",
-		"image": "mimo.jpg"
-	},
+  {
+    "display": "block",
+    "title": "Deck Mulligan",
+    "year": "2025",
+    "type": "UX Design | Web Development",
+    "description": "Deck Mulligan is an AI-powered web application designed for Magic: The Gathering players who want to breathe new life into their card collections. The platform helps users organize their spare cards and intelligently builds new, playable decks based only on what they already own.",
+    "technology": "",
+    "github": "",
+    "projectUrl": "",
+    "projectPage": "/deckmulligan",
+    "image": "deckmulligan.jpg"
+  },
+  {
+    "display": "block",
+    "title": "Febraban News",
+    "year": "2020",
+    "type": "UX Design | Art Direction",
+    "description": "Amidst Brazil's COVID-19 turmoil, FEBRABAN NEWS emerged as a beacon, providing economic updates, aid guidance, and scam alerts. This project empowered millions with accurate, essential information during unprecedented times. ",
+    "technology": "",
+    "github": "",
+    "projectUrl": "",
+    "projectPage": "/febraban-news",
+    "image": "febraban-news.jpg"
+  },
+  {
+    "display": "block",
+    "title": "BB Seguros",
+    "year": "2019",
+    "type": "UX Design | Art Direction",
+    "description": "With the internet changing how we do things, BB Seguros decided to upgrade too, to make things better for customers. They made a new website that combines insurance, capitalization, pensions, and dental services all in one place, for a smoother experience.",
+    "technology": "",
+    "github": "",
+    "projectUrl": "",
+    "projectPage": "/bbseguros",
+    "image": "bbseguros.jpg"
+  },
+  {
+    "display": "block",
+    "title": "Mimo Restaurant",
+    "year": "2019",
+    "type": "UX Design",
+    "description": "Mimo Restaurant decided to create its website to provide a more delightful experience for its customers. Located in São Paulo - Brazil, the restaurant offers an elegant proposition for its dishes, transforming the quality of ingredients into an unforgettable experience for its customers.",
+    "technology": "",
+    "github": "",
+    "projectUrl": "",
+    "projectPage": "/mimo-restaurant",
+    "image": "mimo.jpg"
+  },
 
-	{
-		"display": "hidden",
-		"title": "Tap & Manage",
-		"year": "2023",
-		"type": "UX Design | Front-end | Back-end",
-		"description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
-		"technology": "React | Tailwind | NodeJS | Express | MongoDB | JWT ",
-		"github": "https://github.com/vinwatanabe/tapandmanage",
-		"projectUrl": "https://tapandmanage.vercel.app/",
-		"projectPage": "",
-		"image": "tap-and-manage.jpg"
-	},
-	{
-		"display": "hidden",
-		"title": "VanHike",
-		"year": "2023",
-		"type": "UX Design | Front-end",
-		"description": " VanHike is web application created for hiking enthusiasts in Vancouver. My role in this project was to shape its visual identity, design an intuitive user experience for the entire website, and develop the interface for admin pages that seamlessly connects users with the diverse and captivating trails surrounding the city. Through meticulous design, users can effortlessly navigate optimized routes, tailored to their expertise and preferences. The application provides weather information, ensuring hikers are well-prepared for the ever-changing Vancouver climate. My contribution extends beyond the user interface elements; I developed the user-friendly admin panel. This component interacts with our custom API, empowering users to dynamically shape the platform by creating, deleting, and updating routes.",
-		"technology": "React | MaterialUI | WeatherAPI",
-		"github": "https://github.com/souzatotolo/VanHike",
-		"projectUrl": "https://project-group5.vercel.app/",
-		"projectPage": "",
-		"image": "vanhike.jpg"
-	}
+  {
+    "display": "hidden",
+    "title": "Tap & Manage",
+    "year": "2023",
+    "type": "UX Design | Front-end | Back-end",
+    "description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
+    "technology": "React | Tailwind | NodeJS | Express | MongoDB | JWT ",
+    "github": "https://github.com/vinwatanabe/tapandmanage",
+    "projectUrl": "https://tapandmanage.vercel.app/",
+    "projectPage": "",
+    "image": "tap-and-manage.jpg"
+  },
+  {
+    "display": "hidden",
+    "title": "VanHike",
+    "year": "2023",
+    "type": "UX Design | Front-end",
+    "description": " VanHike is web application created for hiking enthusiasts in Vancouver. My role in this project was to shape its visual identity, design an intuitive user experience for the entire website, and develop the interface for admin pages that seamlessly connects users with the diverse and captivating trails surrounding the city. Through meticulous design, users can effortlessly navigate optimized routes, tailored to their expertise and preferences. The application provides weather information, ensuring hikers are well-prepared for the ever-changing Vancouver climate. My contribution extends beyond the user interface elements; I developed the user-friendly admin panel. This component interacts with our custom API, empowering users to dynamically shape the platform by creating, deleting, and updating routes.",
+    "technology": "React | MaterialUI | WeatherAPI",
+    "github": "https://github.com/souzatotolo/VanHike",
+    "projectUrl": "https://project-group5.vercel.app/",
+    "projectPage": "",
+    "image": "vanhike.jpg"
+  }
 ]
