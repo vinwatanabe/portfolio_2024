@@ -181,13 +181,12 @@ const Homepage = () => {
                   </p>
                 ) : (
                   <p>
-                    I'm Vinicius, a recently graduated Web Developer and former
-                    Art Director/UI Designer with experience crafting immersive
-                    experiences for advertising agencies such as ID\TBWA,
-                    AlmapBBDO and McGarryBowen. While working for these
-                    agencies, I had the opportunity to create amazing projects
-                    for global clients like Unicef, Intuit Quickbooks, M&Ms,
-                    Snickers, Pedigree, Santander Bank, Claro, and more.
+                    I'm Vinicius, Web Developer and Designer with experience
+                    crafting immersive experiences for advertising agencies such
+                    as ID\TBWA, AlmapBBDO and McGarryBowen. While working for
+                    these agencies, I had the opportunity to create amazing
+                    projects for global clients like Unicef, Intuit Quickbooks,
+                    M&Ms, Snickers, Pedigree, Santander Bank, Claro, and more.
                   </p>
                 )}
 
@@ -209,6 +208,12 @@ const Homepage = () => {
                 Experience
               </p>
               <ul id='experience-text' className='font-bold'>
+                <li>
+                  <span className='text-orange'>
+                    Fresh Tracks Canada - UX/UI Designer |
+                  </span>{' '}
+                  2024 - 2025
+                </li>
                 <li>
                   <span className='text-orange'>
                     ID\TBWA - Senior Art Director / UX/UI Designer |
