@@ -1,0 +1,14 @@
+[
+  {
+    "display": "block",
+    "title": "Share & Go",
+    "year": "2022",
+    "type": "Front-end | UI Design",
+    "description": "Share & Go is a transformative web application designed to streamline city commuting by facilitating convenient ride-sharing among users. This platform envisions connecting individuals heading to the same location within the city, offering a sustainable and cost-effective means of transportation for daily routines such as commuting to work, school, or navigating urban landscapes. My role in this project involved the creation of the user interface design, frontend coding, and establishing seamless connectivity with the Firebase backend.",
+    "technology": "React | Bootstrap | Firebase",
+    "github": "https://github.com/vinwatanabe/shareandgo-frontend",
+    "projectUrl": "",
+    "projectPage": "",
+    "image": "share-and-go.jpg"
+  }
+]

@@ -1,50 +1,50 @@
 [
-	{
-		"display": "block",
-		"title": "Tap & Manage",
-		"year": "2023",
-		"type": "Front-end | Back-end | UI Design",
-		"description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
-		"technology": "React | Tailwind | NodeJS | Express | MongoDB | JWT ",
-		"github": "https://github.com/vinwatanabe/tapandmanage",
-		"projectUrl": "https://tapandmanage.vercel.app/",
-		"projectPage": "",
-		"image": "tap-and-manage.jpg"
-	},
-	{
-		"display": "block",
-		"title": "VanHike",
-		"year": "2023",
-		"type": "Front-end | UI Design",
-		"description": " VanHike is web application created for hiking enthusiasts in Vancouver. My role in this project was to shape its visual identity, design an intuitive user experience for the entire website, and develop the interface for admin pages that seamlessly connects users with the diverse and captivating trails surrounding the city. Through meticulous design, users can effortlessly navigate optimized routes, tailored to their expertise and preferences. The application provides weather information, ensuring hikers are well-prepared for the ever-changing Vancouver climate. My contribution extends beyond the user interface elements; I developed the user-friendly admin panel. This component interacts with our custom API, empowering users to dynamically shape the platform by creating, deleting, and updating routes.",
-		"technology": "React | MaterialUI | WeatherAPI",
-		"github": "https://github.com/souzatotolo/VanHike",
-		"projectUrl": "https://project-group5.vercel.app/",
-		"projectPage": "",
-		"image": "vanhike.jpg"
-	},
-	{
-		"display": "block",
-		"title": "Share & Go",
-		"year": "2022",
-		"type": "Front-end | UI Design",
-		"description": "Share & Go is a transformative web application designed to streamline city commuting by facilitating convenient ride-sharing among users. This platform envisions connecting individuals heading to the same location within the city, offering a sustainable and cost-effective means of transportation for daily routines such as commuting to work, school, or navigating urban landscapes. My role in this project involved the creation of the user interface design, frontend coding, and establishing seamless connectivity with the Firebase backend.",
-		"technology": "React | Bootstrap | Firebase",
-		"github": "https://github.com/vinwatanabe/shareandgo-frontend",
-		"projectUrl": "",
-		"projectPage": "",
-		"image": "share-and-go.jpg"
-	},
-	{
-		"display": "block",
-		"title": "Converter Link",
-		"year": "2020",
-		"type": "Front-end | UI Design",
-		"description": "Converter Link emerged as a solution to a challenge I've encountered in the dynamic environment of an advertising agency. Faced with the disparity between Macintosh and Windows computers in the agency, where the server presented links with divergent folder separators (backslash for Mac and forward slash for Windows), a I developed a solution for a better workflow and collaboration. The heart of Converter Link lies in a simple yet effective script designed to replace forward slashes with backslashes, ensuring uniformity in link representation across different operating systems. This script, complemented by an intuitive web interface, provided agency teams with a user-friendly tool to effortlessly convert links and mitigate compatibility issues arising from the platform differences.",
-		"technology": "React | Javascript",
-		"github": "https://github.com/vinwatanabe/converter-link",
-		"projectUrl": "https://vinwatanabe.github.io/converter-link/",
-		"projectPage": "",
-		"image": "converter-link.jpg"
-	}
+  {
+    "display": "block",
+    "title": "Deck Mulligan",
+    "year": "2025",
+    "type": "Front-end | Back-end | UX/UI Design",
+    "description": "Deck Mulligan is an AI-powered web platform tailored for Magic: The Gathering enthusiasts looking to optimize their card collections and build competitive decks. By uploading a simple JSON file of spare cards, users receive intelligent suggestions for new deck builds that utilize their existing inventory. The system evaluates card synergy, deck formats, and strategic potential to propose optimized combinations. Deck Mulligan offers a user-friendly interface and personalized recommendations, enabling players to make the most of their collections without starting from scratch. It’s a smart, efficient way to unlock value from forgotten cards and fuel creativity in deck construction.",
+    "technology": "React | HTML | CSS | NextJS | MongoDB | NextAuth | GeminiAPI ",
+    "github": "",
+    "projectUrl": "https://deckmulligan.vercel.app/",
+    "projectPage": "",
+    "image": "deckmulligan.jpg"
+  },
+  {
+    "display": "block",
+    "title": "Tap & Manage",
+    "year": "2023",
+    "type": "Front-end | Back-end | UI Design",
+    "description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
+    "technology": "React | Tailwind | NodeJS | Express | MongoDB | JWT ",
+    "github": "https://github.com/vinwatanabe/tapandmanage",
+    "projectUrl": "https://tapandmanage.vercel.app/",
+    "projectPage": "",
+    "image": "tap-and-manage.jpg"
+  },
+  {
+    "display": "block",
+    "title": "VanHike",
+    "year": "2023",
+    "type": "Front-end | UI Design",
+    "description": " VanHike is web application created for hiking enthusiasts in Vancouver. My role in this project was to shape its visual identity, design an intuitive user experience for the entire website, and develop the interface for admin pages that seamlessly connects users with the diverse and captivating trails surrounding the city. Through meticulous design, users can effortlessly navigate optimized routes, tailored to their expertise and preferences. The application provides weather information, ensuring hikers are well-prepared for the ever-changing Vancouver climate. My contribution extends beyond the user interface elements; I developed the user-friendly admin panel. This component interacts with our custom API, empowering users to dynamically shape the platform by creating, deleting, and updating routes.",
+    "technology": "React | MaterialUI | WeatherAPI",
+    "github": "https://github.com/vinwatanabe/VanHike",
+    "projectUrl": "https://project-group5.vercel.app/",
+    "projectPage": "",
+    "image": "vanhike.jpg"
+  },
+  {
+    "display": "block",
+    "title": "Converter Link",
+    "year": "2020",
+    "type": "Front-end | UI Design",
+    "description": "Converter Link emerged as a solution to a challenge I've encountered in the dynamic environment of an advertising agency. Faced with the disparity between Macintosh and Windows computers in the agency, where the server presented links with divergent folder separators (backslash for Mac and forward slash for Windows), a I developed a solution for a better workflow and collaboration. The heart of Converter Link lies in a simple yet effective script designed to replace forward slashes with backslashes, ensuring uniformity in link representation across different operating systems. This script, complemented by an intuitive web interface, provided agency teams with a user-friendly tool to effortlessly convert links and mitigate compatibility issues arising from the platform differences.",
+    "technology": "React | Javascript",
+    "github": "https://github.com/vinwatanabe/converter-link",
+    "projectUrl": "https://vinwatanabe.github.io/converter-link/",
+    "projectPage": "",
+    "image": "converter-link.jpg"
+  }
 ]
