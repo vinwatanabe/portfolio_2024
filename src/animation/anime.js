@@ -1,8 +1,7 @@
-import anime from 'animejs/lib/anime.es.js';
+import { animate } from 'animejs';
 
 const blobTop = (targetCSS) => {
-	anime({
-		targets: targetCSS,
+	animate(targetCSS, {
 		d: [
 			{
 				value:
@@ -21,16 +20,15 @@ const blobTop = (targetCSS) => {
 					'M275,31c200,0,110,220,300,230,196,74,110,350,10,450-200,163-217,90-300,100.958C170,500-60,150-150,200.906S75,0,150,15Z',
 			},
 		],
-		easing: 'linear',
+		ease: 'linear',
 		duration: 10000,
 		loop: true,
-		direction: 'alternate',
+		alternate: true,
 	});
 };
 
 const blobAbout = (targetCSS) => {
-	anime({
-		targets: targetCSS,
+	animate(targetCSS, {
 		d: [
 			{
 				value:
@@ -45,10 +43,10 @@ const blobAbout = (targetCSS) => {
 					'M290,31c179,0,90,120,360,326,70,50,160,120,160,230-90,70-150,90-165,55.624C141,600-160,700-160,490.3S56,20,200,46Z',
 			},
 		],
-		easing: 'linear',
+		ease: 'linear',
 		duration: 10000,
 		loop: true,
-		direction: 'alternate',
+		alternate: true,
 	});
 };
 
